@@ -1,0 +1,52 @@
+# __pycache__와 컴파일된 Python 파일 무시
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 가상환경 무시 (예: venv, .env)
+venv/
+.env/
+.venv/
+.huggingface-env/
+huggingface-env/
+
+# Jupyter Notebook 체크포인트 무시
+.ipynb_checkpoints/
+
+# 시스템 파일 무시
+.DS_Store
+Thumbs.db
+
+# IDE/에디터 관련 파일 무시
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 로그, 임시 파일 무시
+*.log
+*.tmp
+
+# 환경 설정 파일 무시
+*.env
+.env.*
+
+# 배포/패키징 관련 파일 무시
+build/
+dist/
+*.egg-info/
+
+# 테스트 출력 무시
+htmlcov/
+.coverage
+.tox/
+
+# 기타
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.pth
+*.dylib
+*.pt
+*.ckpt
